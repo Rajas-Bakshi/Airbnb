@@ -50,7 +50,7 @@ Figure 1 shows the data grouped by the month of registration & the mean price of
 
 ### property:
 
-[Figure 1] (https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/1.PNG?raw=true)
+![Figure 1](https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/1.PNG?raw=true)
 
 Observation: The plot above for counts (Numbers of registrations) is slightly skewed towards the
 right i.e., more properties have been registered in the second half of the year. However, there is no
