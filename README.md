@@ -49,10 +49,10 @@ towards the solution of the problem.
 Figure 1 shows the data grouped by the month of registration & the mean price of the
 
 ### property:
-```
-![Figure 1](https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/1.PNG?raw=true)
-Figure 1
-```
+
+![Figure 1](https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/1.PNG?raw=true "Figure 1")
+
+
 Observation: The plot above for counts (Numbers of registrations) is slightly skewed towards the
 right i.e., more properties have been registered in the second half of the year. However, there is no
 evident effect of the month of registration on the price of the property
@@ -61,18 +61,16 @@ evident effect of the month of registration on the price of the property
 The plot below (figure 2) shows the relationship between number of registrations each day of a
 month & the mean price of the property.
 
-```
-Figure 2
-```
+![Figure 2](https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/2.PNG?raw=true "Figure 2")
+
 Observation: No significant relationship can be observed between the date of registration and the
 price of the property.
 
 Plotting relations between the year of registration and number of registrations along with the
 price of the property in figure 3.
 
-```
-Figure 3
-```
+![Figure 3](https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/3.PNG?raw=true "Figure 3")
+
 
 Observation: Although there are more registrations from 2012 to 2017, no significant difference can
 be seen in the property's price.
@@ -82,18 +80,16 @@ Thus, after analyzing the date of registration, it shows no significant effect o
 Understanding the types of properties that are majorly listed over the years, by plotting the
 data on a pie chart in figure 4:
 
-```
-Figure 4
-```
+![Figure 4](https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/4.PNG?raw=true "Figure 4")
+
 Observation: A large number of “Entire Home/apt” room type is listed over the years, followed by
 “Private room”.
 
 Plotting a pie chart of room type and the mean price for that room type to indicate the relation
 between room type and price of the property are shown in figure 5:
 
-```
-Figure 5
-```
+![Figure 5](https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/5.PNG?raw=true "Figure 5")
+
 
 Observation: The distribution in the mean price can be seen concerning the type of room. Although
 the Entire Home/apt has the highest number of registrations, the hotel room has the highest mean
@@ -102,9 +98,9 @@ price.
 Analyzing the relation between the number of beds and the count of properties along with its
 cost in figure 6 and 7:
 
-```
-Figure 6 Figure 7
-```
+![Figure 6](https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/6.PNG?raw=true "Figure 6")
+![Figure 7](https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/7.PNG?raw=true "Figure 7")
+
 Figure 6 is a Graph for number of beds vs the count of properties and figure 7 is a Graph for number
 of beds vs cost of the property: Following things can be observed from the above two graphs:
 Observation:
@@ -114,25 +110,22 @@ Observation:
 
 Understanding the host verification in figure 8:
 
-```
-Figure 8
-```
+![Figure 8](https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/8.PNG?raw=true "Figure 8")
+
 Observation: The above graph shows that majority of the hosts have between 4 to 7 verifications.
 
 
 Understanding the impact of a property type on its price in figure 9:
 
-```
-Figure 9
-```
+![Figure 9](https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/9.PNG?raw=true "Figure 9")
+
 Observation: The average price is moving on the upside as we go towards spacious property types.
 
 The relation between price and number of people a property can accommodate can be seen in
 figure 10:
 
-```
-Figure 10
-```
+![Figure 10](https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/10.PNG?raw=true "Figure 10")
+
 Observation: The number of people a property can accommodate and the property type both play an
 essential role & are correlated to the property's price.
 
@@ -146,9 +139,8 @@ string format. Before further processing, we need to perform string indexing on 
 
 The calculated correlation of features is shown in figure 11 with Features on the x-axis:
 
-```
-Figure 11
-```
+![Figure 11](https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/11.PNG?raw=true "Figure 11")
+
 Observation: A clear & significant impact of features such as room type, property type, bedrooms,
 longitude, number of beds, and the number of people a property can accommodate on deciding a
 favorable fare for the property.
@@ -164,9 +156,8 @@ After training the model, we plot predictions in figure 12 to better understand 
 performance.
 
 
-```
-Figure 12
-```
+![Figure 12](https://github.com/Rajas-Bakshi/Airbnb/blob/main/images/12.PNG?raw=true "Figure 12")
+
 Observation: Both Predicted and actual values are following a similar trend.
 
 The root means square value for assessing our model
@@ -174,20 +165,6 @@ The root means square value for assessing our model
 The RSME of the model is 54.771, with the average of the dependent variable (price) is 145. Thus
 we can now recommend the price of properties that will be newly listed.
 
-## Improvisation.
-
-The Data file is downloaded from google bucket. The dataset in this bucket is updated every 15
-days. Script used to update this bucket is shown in figure 13, and the crontab setting to run the script
-every 15 days, as shown in figure 14. The reason to update the file is to add new listings to the
-dataset and improve the performance to adapt to the latest trends.
-
-```
-Figure 13
-```
-
-```
-Figure 14
-```
 ## Conclusion.
 
 Thus, we have successfully extracted features that can be used for recommending prices for a new
